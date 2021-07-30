@@ -30,7 +30,7 @@ def set_coins(value):
 
 class MainWindow:
     root = Tk()
-    #root.iconbitmap("icon.ico")
+    root.iconbitmap("icon.ico")
     root.title(TITLE)
     root.geometry(RESOLUTION)
     root.resizable(False, False)
